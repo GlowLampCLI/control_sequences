@@ -1,5 +1,5 @@
 {
-  "name": "@glowlamp/control_sequences",
+  "name": "@glowlamp/control-sequences",
   "version": "0.0.0",
   "description": "Builds ANSI control sequences for terminals",
   "main": "build/index.js",
