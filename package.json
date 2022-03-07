@@ -12,6 +12,10 @@
     "CSI"
   ],
   "author": "EarthyOrange",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlowLampCLI/control_sequences.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/runtime-corejs3": "^7.17.2",
