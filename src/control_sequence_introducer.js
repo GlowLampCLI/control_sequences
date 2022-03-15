@@ -1,10 +1,6 @@
 import escape from './escape';
 
 /**
- * @typedef {`${escape}[`} CSI
- */
-
-/**
  *
  * @type {CSI}
  */
