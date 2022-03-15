@@ -1,11 +1,12 @@
 {
   "name": "@glowlamp/control-sequences",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Builds ANSI control sequences for terminals",
   "main": "build/index.js",
   "scripts": {
     "build": "babel src --out-dir build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --config node_modules/@glowlamp/lint/.eslintrc src test --fix",
+    "test": "tape --require ./test test/*.js | tap-diff"
   },
   "keywords": [
     "ANSI",
@@ -27,7 +28,12 @@
     "@babel/plugin-proposal-export-default-from": "^7.16.7",
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
-    "@glowlamp/colors": "0.0.0"
+    "@babel/register": "^7.10.1",
+    "@glowlamp/colors": "0.0.0",
+    "@glowlamp/lint": "1.0.0",
+    "eslint": "^8.11.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^5.5.2"
   },
   "peerDependencies": {
     "@glowlamp/colors": "0.x"

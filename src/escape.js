@@ -1,8 +1,4 @@
 /**
- * @typedef {'\x1b'} escape
- */
-
-/**
  *
  * @type {escape}
  */
