@@ -6,5 +6,5 @@ import CSI from './control_sequence_introducer';
  * @returns {MoveCursorDown}
  */
 export default function moveCursorDown(n = 4) {
-  return `${CSI}${n}B`;
+  return n === 0 ? '' : `${CSI}${n}B`;
 }
