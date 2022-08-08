@@ -3,6 +3,7 @@ export moveCursorUp from './move_cursor_up';
 export foregroundColor from './foreground_color';
 export moveCursorBack from './move_cursor_back';
 export moveCursorDown from './move_cursor_down';
+export scrollCursorDown from './scroll_cursor_down';
 export MoveCursorHorizontally from './move_cursor_horizontally';
 export MoveCursorVertically from './move_cursor_vertically';
 export MoveCursorAt from './move_cursor_at';

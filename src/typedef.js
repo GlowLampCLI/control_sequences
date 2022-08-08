@@ -37,3 +37,7 @@
 /**
  * @typedef {`${CSI}${int};${int}H`} CursorPosition
  */
+
+/**
+ * @typedef {`${CSI}${int}S`} ScrollDown
+ */
